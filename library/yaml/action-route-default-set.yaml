@@ -1,6 +1,6 @@
 lbcli:  
 -  action: route
    function: default
-   type: set
-   gateway:
-   interface:
+   type: "{{ type }}"
+   gateway: "{{ gateway }}"
+   interface: "{{ interface }}"

@@ -1,13 +1,13 @@
 lbcli:  
 -  action: termination
-   type: stunnel
+   type: "{{ type }}"
    function: edit
-   vip:
-   sni: edit
-   sni_name:
-   sni_rule:
-   sni_cert:
-   sni_backend_proxyprotocol:
-   sni_backend_service:
-   sni_backend_ip:
-   sni_backend_port:
+   vip: "{{ vip }}"
+   sni: "{{ sni }}"
+   sni_name: "{{ sni_name }}"
+   sni_rule: "{{ sni_rule }}"
+   sni_cert: "{{ sni_cert }}"
+   sni_backend_proxyprotocol: "{{ sni_backend_proxyprotocol }}"
+   sni_backend_service: "{{ sni_backend_service }}"
+   sni_backend_ip: "{{ sni_backend_ip }}"
+   sni_backend_port: "{{ sni_backend_port }}"

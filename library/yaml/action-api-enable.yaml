@@ -1,6 +1,6 @@
 lbcli:  
 -  action: api
    function: enable
-   username:
-   password:
-   apikey:
+   username: "{{ username }}"
+   password: "{{ password }}"
+   apikey: "{{ apikey }}"

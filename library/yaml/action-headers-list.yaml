@@ -1,5 +1,4 @@
 lbcli:  
 -  action: headers
    function: list
-   vip:
-   
+   vip: "{{ vip }}"

@@ -1,28 +1,28 @@
 lbcli:  
 -  action: termination
-   type: stunnel
+   type: "{{ type }}"
    function: edit
-   vip:
-   ip:
-   port:
-   backend_ip:
-   backend_port:
-   sslcert:
-   sslmode:
-   haproxy_ssl_link:
-   ciphers:
-   disablesslv2:
-   disablesslv3:
-   disabletlsv1:
-   stunneldnsdelay:
-   stunnelproxy:
-   servercipherorder:
-   emptyfragments:
-   stunnelrenegotiation:
-   stunneltimetoclose:
-   proxy_bind:
-   slave_ip:
-   disabletlsv1_1:
-   disabletlsv1_2:
-   disabletlsv1_3:
-   sslcert:
+   vip: "{{ vip }}"
+   ip: "{{ ip }}"
+   port: "{{ port }}"
+   backend_ip: "{{ backend_ip }}"
+   backend_port: "{{ backend_port }}"
+   sslcert: "{{ sslcert }}"
+   sslmode: "{{ sslmode }}"
+   haproxy_ssl_link: "{{ haproxy_ssl_link }}"
+   ciphers: "{{ ciphers }}"
+   disablesslv2: "{{ disablesslv2 }}"
+   disablesslv3: "{{ disablesslv3 }}"
+   disabletlsv1: "{{ disabletlsv1 }}"
+   stunneldnsdelay: "{{ stunneldnsdelay }}"
+   stunnelproxy: "{{ stunnelproxy }}"
+   servercipherorder: "{{ servercipherorder }}"
+   emptyfragments: "{{ emptyfragments }}"
+   stunnelrenegotiation: "{{ stunnelrenegotiation }}"
+   stunneltimetoclose: "{{ stunneltimetoclose }}"
+   proxy_bind: "{{ proxy_bind }}"
+   slave_ip: "{{ slave_ip }}"
+   disabletlsv1_1: "{{ disabletlsv1_1 }}"
+   disabletlsv1_2: "{{ disabletlsv1_2 }}"
+   disabletlsv1_3: "{{ disabletlsv1_3 }}"
+   sslcert: "{{ sslcert }}"

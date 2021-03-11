@@ -1,5 +1,5 @@
 lbcli:  
 -  action: online
-   ip:
-   rip:
-   services: all
+   ip: "{{ ip }}"
+   rip: "{{ rip }}"
+   services: "{{ services }}"

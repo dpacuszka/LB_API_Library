@@ -1,4 +1,4 @@
 lbcli:  
 -  action: termination
-   type: certificate
+   type: "{{ type }}"
    function: list

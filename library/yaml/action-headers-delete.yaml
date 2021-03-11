@@ -1,6 +1,6 @@
 lbcli:  
 -  action: headers
    function: delete
-   vip:
-   header_option:      
-   header_name:
+   vip: "{{ vip }}"
+   header_option: "{{ header_option }}"
+   header_name: "{{ header_name }}"

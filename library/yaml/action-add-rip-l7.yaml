@@ -1,10 +1,10 @@
 lbcli:  
 -  action: add-rip
-   vip:
-   rip:
-   ip:
-   weight:
-   port:
-   minconns:
-   maxconns:
-   encrypted:
+   vip: "{{ vip }}"
+   rip: "{{ rip }}"
+   ip: "{{ ip }}"
+   weight: "{{ weight }}"
+   port: "{{ port }}"
+   minconns: "{{ minconns }}"
+   maxconns: "{{ maxconns }}"
+   encrypted: "{{ encrypted }}"

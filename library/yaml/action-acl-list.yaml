@@ -1,4 +1,4 @@
 lbcli:  
 -  action: acl
    function: list
-   vip:
+   vip: "{{ vip }}"

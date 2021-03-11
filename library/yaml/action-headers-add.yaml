@@ -1,8 +1,8 @@
 lbcli:  
 -  action: headers
    function: add
-   vip:
-   header_type:
-   header_option:
-   header_name:
-   header_value:
+   vip: "{{ vip }}"
+   header_type: "{{ header_type }}"
+   header_option: "{{ header_option }}"
+   header_name: "{{ header_name }}"
+   header_value: "{{ header_value }}"

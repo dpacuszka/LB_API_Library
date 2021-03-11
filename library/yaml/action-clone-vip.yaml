@@ -1,7 +1,6 @@
 lbcli:  
 -  action: clone-vip
-   vip:
-   clone:
-   ip:
-   ports:
-   
+   vip: "{{ vip }}"
+   clone: "{{ clone }}"
+   ip: "{{ ip }}"
+   ports: "{{ ports }}"

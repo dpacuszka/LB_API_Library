@@ -1,29 +1,29 @@
 lbcli:  
 -  action: edit-vip
-   vip:
-   ip:
-   ports:  
-   protocol:
-   scheduler:  
-   forwarding:
-   persistent:  
-   persist_time:
-   granularity:  
-   fallback_ip:
-   fallback_port:
-   fallback_local:
-   feedback:  
-   email:  
-   email_from:
-   check_service:  
-   check_vhost:
-   check_database:
-   check_login:
-   check_password:
-   check_type:
-   check_port:
-   check_request:
-   check_response:
-   check_secret:
-   check_command:
-   autoscale_group:
+   vip: "{{ vip }}"
+   ip: "{{ ip }}"
+   ports: "{{ ports }}"
+   protocol: "{{ protocol }}"
+   scheduler: "{{ scheduler }}"
+   forwarding: "{{ forwarding }}"
+   persistent: "{{ persistent }}"
+   persist_time: "{{ persist_time }}"
+   granularity: "{{ granularity }}"
+   fallback_ip: "{{ fallback_ip }}"
+   fallback_port: "{{ fallback_port }}"
+   fallback_local: "{{ fallback_local }}"
+   feedback: "{{ feedback }}"
+   email: "{{ email }}"
+   email_from: "{{ email_from }}"
+   check_service: "{{ check_service }}"
+   check_vhost: "{{ check_vhost }}"
+   check_database: "{{ check_database }}"
+   check_login: "{{ check_login }}"
+   check_password: "{{ check_password }}"
+   check_type: "{{ check_type }}"
+   check_port: "{{ check_port }}"
+   check_request: "{{ check_request }}"
+   check_response: "{{ check_response }}"
+   check_secret: "{{ check_secret }}"
+   check_command: "{{ check_command }}"
+   autoscale_group: "{{ autoscale_group }}"

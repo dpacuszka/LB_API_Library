@@ -1,16 +1,16 @@
 lbcli:  
 -  action: termination
-   type: stunnel
+   type: "{{ type }}"
    function: add
-   vip:
-   ip:
-   port:
-   backend_ip:
-   backend_port:
-   sslcert:
-   slave_ip:
-   disabletlsv1_1:
-   disabletlsv1_2:
-   disabletlsv1_3:
-   sslmode:
-   haproxy_ssl_link:
+   vip: "{{ vip }}"
+   ip: "{{ ip }}"
+   port: "{{ port }}"
+   backend_ip: "{{ backend_ip }}"
+   backend_port: "{{ backend_port }}"
+   sslcert: "{{ sslcert }}"
+   slave_ip: "{{ slave_ip }}"
+   disabletlsv1_1: "{{ disabletlsv1_1 }}"
+   disabletlsv1_2: "{{ disabletlsv1_2 }}"
+   disabletlsv1_3: "{{ disabletlsv1_3 }}"
+   sslmode: "{{ sslmode }}"
+   haproxy_ssl_link: "{{ haproxy_ssl_link }}"

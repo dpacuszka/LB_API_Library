@@ -1,8 +1,8 @@
 lbcli:  
 -  action: termination
-   type: stunnel
+   type: "{{ type }}"
    function: edit
-   vip:
-   sni: delete
-   sni_name:
-   sni_rule:
+   vip: "{{ vip }}"
+   sni: "{{ sni }}"
+   sni_name: "{{ sni_name }}"
+   sni_rule: "{{ sni_rule }}"

@@ -1,4 +1,4 @@
 lbcli:  
 -  action: list
    function: advanced
-   layer:
+   layer: "{{ layer }}"

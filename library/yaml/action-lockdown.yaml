@@ -1,4 +1,4 @@
 lbcli:  
 -  action: lockdown
-   enabled: on
-   network:
+   enabled: "{{ enabled }}"
+   network: "{{ network }}"

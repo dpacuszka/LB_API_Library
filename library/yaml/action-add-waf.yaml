@@ -1,4 +1,4 @@
 lbcli:  
 -  action: add-waf
-   vip:
-   waf:
+   vip: "{{ vip }}"
+   waf: "{{ waf }}"

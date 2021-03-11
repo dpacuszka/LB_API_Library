@@ -1,5 +1,5 @@
 lbcli:  
 -  action: mtu
    function: set
-   interface:
-   mtu:
+   interface: "{{ interface }}"
+   mtu: "{{ mtu }}"

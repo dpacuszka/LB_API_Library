@@ -1,9 +1,9 @@
 lbcli:  
 -  action: acl
    function: delete
-   vip:
-   pathtype:
-   path:
-   redirecttype:
-   location:
-   bool:
+   vip: "{{ vip }}"
+   pathtype: "{{ pathtype }}"
+   path: "{{ path }}"
+   redirecttype: "{{ redirecttype }}"
+   location: "{{ location }}"
+   bool: "{{ bool }}"

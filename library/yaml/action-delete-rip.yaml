@@ -1,4 +1,4 @@
 lbcli:  
 -  action: delete-rip  
-   vip:
-   rip:
+   vip: "{{ vip }}"
+   rip: "{{ rip }}"

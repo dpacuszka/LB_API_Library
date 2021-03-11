@@ -1,5 +1,5 @@
 lbcli:  
 -  action: pbr
    function:
-   ip:
-   gateway:
+   ip: "{{ ip }}"
+   gateway: "{{ gateway }}"

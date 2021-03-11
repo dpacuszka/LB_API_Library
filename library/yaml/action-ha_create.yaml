@@ -1,5 +1,5 @@
 lbcli:  
 -  action: ha_create
-   local_ip:
-   peer_ip:
-   peer_password:
+   local_ip: "{{ local_ip }}"
+   peer_ip: "{{ peer_ip }}"
+   peer_password: "{{ peer_password }}"

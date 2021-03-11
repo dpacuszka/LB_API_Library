@@ -1,9 +1,9 @@
 lbcli:  
 -  action: add-vip
-   layer: 4
-   vip:
-   ip:
-   ports:
-   forwarding:
-   protocol:
-   slave_ip:
+   layer: "{{ layer }}"
+   vip: "{{ vip }}"
+   ip: "{{ ip }}"
+   ports: "{{ ports }}"
+   forwarding: "{{ forwarding }}"
+   protocol: "{{ protocol }}"
+   slave_ip: "{{ slave_ip }}"

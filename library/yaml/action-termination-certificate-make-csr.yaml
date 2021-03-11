@@ -1,15 +1,15 @@
 lbcli:  
 -  action: termination
-   type: certificate
+   type: "{{ type }}"
    function: csr
-   csrname:
-   city:
-   province:
-   country:
-   organisation:
-   unit:
-   domain:
-   email:
-   csrsize:
-   signalgorithm:
-   days:
+   csrname: "{{ csrname }}"
+   city: "{{ city }}"
+   province: "{{ province }}"
+   country: "{{ country }}"
+   organisation: "{{ organisation }}"
+   unit: "{{ unit }}"
+   domain: "{{ domain }}"
+   email: "{{ email }}"
+   csrsize: "{{ csrsize }}"
+   signalgorithm: "{{ signalgorithm }}"
+   days: "{{ days }}"

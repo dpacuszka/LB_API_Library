@@ -18,10 +18,9 @@ while(! feof($file))
   		case "":
   			break;
   		case "lbcli":
-  			echo $lines;
-  			break;
   		case "action":
-  			echo "-  ".$line['0'].": \"{{ ".$line['0']." }}\"\n";
+      case "function":
+  			echo $lines;
   			break; 
   		default:
   			echo "   ".$line['0'].": \"{{ ".$line['0']." }}\"\n";

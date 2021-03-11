@@ -1,6 +1,6 @@
 lbcli:  
 -  action: address
    function: add
-   interface:
-   address:
-   cidr:
+   interface: "{{ interface }}"
+   address: "{{ address }}"
+   cidr: "{{ cidr }}"

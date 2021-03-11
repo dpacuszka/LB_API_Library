@@ -1,4 +1,4 @@
 lbcli:  
 -  action: address
    function: flush
-   interface:
+   interface: "{{ interface }}"

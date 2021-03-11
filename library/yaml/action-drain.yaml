@@ -1,5 +1,5 @@
 lbcli:  
 -  action: drain
-   vip:
-   rip:
-   services: all
+   vip: "{{ vip }}"
+   rip: "{{ rip }}"
+   services: "{{ services }}"

@@ -1,5 +1,5 @@
 lbcli:  
 -  action: termination
-   type: stunnel
+   type: "{{ type }}"
    function: delete
-   vip:
+   vip: "{{ vip }}"
